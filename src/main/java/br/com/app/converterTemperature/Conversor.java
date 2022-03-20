@@ -3,9 +3,11 @@ package br.com.app.converterTemperature;
 public class Conversor {
 	private Temperatura temperatura;
 
-	public Conversor(char escala, char temperatura) {
+	
+	public Conversor(char escala, double temperatura) {
 		this.temperatura = new Temperatura(escala, temperatura);
 	}
+	
 
 	public Temperatura getTemperatura() {
 		return temperatura;
@@ -13,7 +15,7 @@ public class Conversor {
 
 	public void converter() {
 
-		switch (this.getTemperatura().getEscala()) {
+		switch (this.getTemperatura().getEscala()){  
 		case 'C':
 			this.celsiusParaFahrenheit();
 			break;
@@ -45,4 +47,6 @@ public class Conversor {
         this.getTemperatura().setTemperatura(tempFahrenheit);
         System.out.printf("Temperatura: %.2f *%c\n", this.getTemperatura().getTemperatura(), this.getTemperatura().getEscala());
     }
+
+
 }
