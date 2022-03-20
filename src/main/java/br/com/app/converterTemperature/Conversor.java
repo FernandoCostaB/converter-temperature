@@ -9,7 +9,7 @@ public class Conversor {
 	}
 
 	public Temperatura getTemperatura() {
-		return temperatura
+		return temperatura;
 	}
 
 	public void converter() {
