@@ -4,7 +4,7 @@ public class Temperatura {
 	private char escala;
 	private double temperatura;
 
-	public Temperatura(char escala, char temperatura) {
+	public Temperatura(char escala, double temperatura) {
 		this.setEscala(escala);
 		this.setTemperatura(temperatura);
 	}

@@ -15,7 +15,7 @@ public class Conversor {
 
 	public void converter() {
 
-		switch (this.getTemperatura().getEscala()){  
+		switch (this.getTemperatura().getEscala()){
 		case 'C':
 			this.celsiusParaFahrenheit();
 			break;
