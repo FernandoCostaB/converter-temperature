@@ -25,3 +25,4 @@ public class Temperatura {
 		this.temperatura = temperatura;
 	}
 	
+}
