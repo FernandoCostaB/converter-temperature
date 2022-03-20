@@ -1,4 +1,4 @@
-package br.com.app.converterTemperature;
+package br.com.converterTemperature;
 
 public class Temperatura {
 	private char escala;

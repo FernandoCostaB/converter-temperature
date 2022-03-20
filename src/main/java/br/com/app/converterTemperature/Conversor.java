@@ -3,7 +3,7 @@ package br.com.app.converterTemperature;
 public class Conversor {
 	private Temperatura temperatura;
 
-	public Conversor(char escala, char temperatura) {
+	public Conversor(char escala, double temperatura) {
 		this.temperatura = new Temperatura(escala, temperatura);
 	}
 
