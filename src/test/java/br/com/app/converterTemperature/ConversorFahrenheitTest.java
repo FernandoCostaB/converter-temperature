@@ -12,7 +12,7 @@ public class ConversorFahrenheitTest {
 	 private Conversor conversorTest2;
 
 	    @BeforeEach
-	    public void setup(){
+	    public void setup(){ 
 	    	conversorTest1 = new Conversor('F', 212);
 	        conversorTest2 = new Conversor('F', 32);
 	    }

@@ -5,7 +5,6 @@ public class Conversor {
 
 	public Conversor(char escala, double temperatura) {
 		this.temperatura = new Temperatura(escala, temperatura);
-
 	}
 
 	public Temperatura getTemperatura() {
@@ -33,9 +32,9 @@ public class Conversor {
         this.getTemperatura().setEscala('C');
         this.getTemperatura().setTemperatura(tempCelsius);
         System.out.printf("Temperatura: %.2f *%c\n", this.getTemperatura().getTemperatura(), this.getTemperatura().getEscala());
-    }
+    } 
     
- 
+  
     public void celsiusParaFahrenheit(){
         double tempCelsius, tempFahrenheit;
 

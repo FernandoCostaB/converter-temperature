@@ -11,7 +11,7 @@ public class ConversorCelsiusTest {
 	private Conversor conversorTest1;
 	private Conversor conversorTest2;
 
-	@BeforeEach
+	@BeforeEach 
 	public void setup() {
 		conversorTest1 = new Conversor('C', 300);
 		conversorTest2 = new Conversor('C', 100);
