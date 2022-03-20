@@ -45,6 +45,4 @@ public class Conversor {
         this.getTemperatura().setTemperatura(tempFahrenheit);
         System.out.printf("Temperatura: %.2f *%c\n", this.getTemperatura().getTemperatura(), this.getTemperatura().getEscala());
     }
-
-
 }

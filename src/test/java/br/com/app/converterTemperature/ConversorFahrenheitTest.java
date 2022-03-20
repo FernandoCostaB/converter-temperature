@@ -5,8 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.app.converterTemperature.Conversor;
-
 public class ConversorFahrenheitTest {
 	 private Conversor conversorTest1;
 	 private Conversor conversorTest2;
@@ -31,6 +29,4 @@ public class ConversorFahrenheitTest {
 	        assertEquals(conversorTest2.getTemperatura().getEscala(), 'C');
 	        assertEquals(conversorTest2.getTemperatura().getTemperatura(), 0.00);
 	    }
-	    
-	   
 }

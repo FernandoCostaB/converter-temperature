@@ -5,12 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.app.converterTemperature.Conversor;
-
 public class ConversorCelsiusTest {
 	private Conversor conversorTest1;
-	private Conversor conversorTest2;
-
+	private Conversor conversorTest2; 
+ 
 	@BeforeEach 
 	public void setup() {
 		conversorTest1 = new Conversor('C', 300);

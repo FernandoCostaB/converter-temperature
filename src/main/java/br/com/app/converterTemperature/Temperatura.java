@@ -7,7 +7,7 @@ public class Temperatura {
 	public Temperatura(char escala, double temperatura) {
 		this.setEscala(escala);
 		this.setTemperatura(temperatura);
-	}
+	} 
 
 	public char getEscala() {
 		return this.escala;
@@ -24,4 +24,5 @@ public class Temperatura {
 	public void setTemperatura(double temperatura) {
 		this.temperatura = temperatura;
 	}
+	
 }
