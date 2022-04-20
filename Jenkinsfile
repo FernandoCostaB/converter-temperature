@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3.6.2-jdk-11' 
-            args '-v /root/.m2:/root/.m2 --entrypoint=''' 
+            args '-v /root/.m2:/root/.m2 --entrypoint=' 
         }
     }
     stages {
